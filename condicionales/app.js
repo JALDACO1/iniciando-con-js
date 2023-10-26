@@ -24,32 +24,76 @@
 // }else {
 //     document.write("edad no valida");
 // }
-let dia = prompt('dame el dia de la semana').toLowerCase();
+// let dia = prompt('dame el dia de la semana').toLowerCase();
 
 
-switch (dia) {
-    case 'lunes':
-        console.log('el dia que seleccionaste es lunes');
-        break;
-    case 'martes':
-        console.log('el dia que seleccionaste es martes');
-        break;
-    case 'miercoles':
-        console.log('el dia que seleccionaste es miercoles');
-        break;
-    case 'jueves':
-        console.log('el dia que seleccionaste es jueves');
-        break;
-    case 'viernes':
-        console.log('el dia que seleccionaste es viernes');
-        break;
-    case 'sabado':
-        console.log('el dia que seleccionaste es sabado');
-        break;
-    case 'domingo':
-        console.log('el dia que seleccionaste es domingo');
-        break;
-    default:
-        console.log('no se reconoce el dia');
-        break;
+// switch (dia) {
+//     case 'lunes':
+//         console.log('el dia que seleccionaste es lunes');
+//         break;
+//     case 'martes':
+//         console.log('el dia que seleccionaste es martes');
+//         break;
+//     case 'miercoles':
+//         console.log('el dia que seleccionaste es miercoles');
+//         break;
+//     case 'jueves':
+//         console.log('el dia que seleccionaste es jueves');
+//         break;
+//     case 'viernes':
+//         console.log('el dia que seleccionaste es viernes');
+//         break;
+//     case 'sabado':
+//         console.log('el dia que seleccionaste es sabado');
+//         break;
+//     case 'domingo':
+//         console.log('el dia que seleccionaste es domingo');
+//         break;
+//     default:
+//         console.log('no se reconoce el dia');
+//         break;
+// }
+
+//operador ternario
+
+// let numero1 = 25;
+// let numero2 = 20;
+//                     //condicion ? true : false
+// //los dos puntos dividen en true or false
+// let valor = (numero1 > numero2) ? 'el numero1 es mayor':'el numero2 es mayor';
+// console.log(valor);
+
+//PEDIR DOS NUMEROS Y QUE EL PROGRAMA NOS DIGA CUAL ES EL MAYOR, CUAL ES EL MENOR Y SI SON IGUALES
+// let numero1 = prompt('Dame el primer numero');
+// let numero2 = prompt('Dame el segundo numero');
+
+// if (numero1 < numero2){
+//     document.write('el numero1 es mayor que el numero2');
+//     }else if (numero1 > numero2) {
+//         document.write('el numero2 es mayor que el numero1');
+//     }else {
+//         document.write('los numero son iguales');
+//     }
+
+    //PEDIR UN NUMERO Y QUE ME DIGA SI ES PAR O IMPAR EN CONSOLA  EN EL NUMERO MOD 2 O NUMERO % 2 = RESIDUO
+//      let num = prompt ('dame un numero');
+//      if (num%2==0){
+//          console.log('el numero es par');   
+//      } else {
+//          console.log('el numero es impar')
+//  }
+
+    //PEDIR DOS NUMERO ENTEROS Y DEVOLVER EL COCIENTE O SEA EL RESULTADO DE DIVIDIR EL NUMERO 1 ENTRE EL 2, PERO SI UNO DE LOS NUMEROS ES 0 NO HACER NADA Y MANDAR 
+let numero1 = prompt('dame el primer numero');
+let numero2 = prompt('dame el segundo numero');
+let op = numero1 / numero2
+if (numero1==0) {
+    document.write('ERROR');
+} else if (numero2==0){
+        document.write('ERROR');
+    }else {
+    document.write('El resultado= '+op)
+
 }
+
+

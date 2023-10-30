@@ -1,7 +1,12 @@
 function promedio(){
-    const Calificacion1 = parseFloat(document.getElementById('Calificacion1').value);
-    const Calificacion2 = parseFloat(document.getElementById('Calificacion2').value);
-    const Calificacion3 = parseFloat(document.getElementById('Calificacion3').value);
-
-    const 
+    let cali1 = parseFloat (document.getElementById("calificacion1").value);
+    let cali2 = parseFloat(document.getElementById("calificacion2").value);
+    let cali3 = parseFloat(document.getElementById("calificacion3").value);
+    promedio = ((cali1+cali2+cali3)/(3));
+    document.write ('Tu promedio es de: '+promedio+' ')
+    if (promedio >= 8) {
+        document.write ('¡Felicidades, lo lograste!')
+     } else {
+        document.write ('¡Lo siento, tienes ordinario!')
+     }
 }

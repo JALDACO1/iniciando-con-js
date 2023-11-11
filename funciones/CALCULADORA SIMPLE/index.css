@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-size: large;
+    font-family: fantasy;
+
+}
+.cuerpo {
+    background-color: cadetblue;
+}
+.numeros {
+    width: 20%;
+    margin: 15px;
+    height: 15px;
+    padding: 15px;
+    border: solid black 3px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: darkseagreen;
+}
+.editar {
+    color: white;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: medium;
+    margin: 4px 2px;
+    color: black;
+    border-radius: 15px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    box-shadow: 0 9px #999;
+}
+
+    

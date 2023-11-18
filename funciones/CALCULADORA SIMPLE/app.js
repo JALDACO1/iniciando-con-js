@@ -29,17 +29,17 @@ function dividir() {
 let boton = document.querySelector("#boton");
                         //Evento que va a escuchar, función que se va a ejecutar
 boton.addEventListener("click",function(){
-    console.log("Dimos Click en el boton");
+    document.querySelector("Dimos Click en el boton");
     
     boton.classList.toggle('verde');
 });
 
 boton.addEventListener("mouseover",function(){
-    document.querySelector("#over").innerHTML = ("Estamos sobre el boton");
+    document.querySelector("#sobre").innerHTML = ("Estamos sobre el boton");
 });
 
 boton.addEventListener("mouseout",function(){
-    document.querySelector("#over").innerHTML = ("Salí del boton");
+    document.querySelector("#sobre").innerHTML = ("Salí del boton");
 });
 
 window.addEventListener("keydown" , (e) => {
